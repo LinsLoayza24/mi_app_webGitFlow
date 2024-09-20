@@ -3,6 +3,7 @@ document.getElementById('btnClick').addEventListener('click', function() {
 });
 
 // realizamos un cambio en cualquier archivo para poner a prueba
+//hola
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
     var name = document.getElementById('name').value;
